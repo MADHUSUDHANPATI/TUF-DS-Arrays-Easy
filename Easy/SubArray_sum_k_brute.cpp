@@ -1,8 +1,10 @@
+// This problem is for both positives , 0's , Negatives also;
+
 #include<iostream>
 #include<vector>
 using namespace std;
 
-int SubArray_sum_k_for_positives_brute(vector<int> &nums, int k) {
+int SubArray_sum_k_brute(vector<int> &nums, int k) {
 
     int n= nums.size();
     int len=0;
@@ -27,5 +29,5 @@ int main() {
         cin >> nums[i];
     }
 
-    cout << SubArray_sum_k_for_positives_brute( nums, k);
+    cout << SubArray_sum_k_brute( nums, k);
 }

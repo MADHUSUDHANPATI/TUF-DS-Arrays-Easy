@@ -6,7 +6,7 @@ using namespace std;
 
 int Largest_Number( int arr[], int n) {
 
-    // int n= arr.size();             // arr is a plain array (int arr[]) Plain arrays do NOT have .size()
+    // int n= arr.size();             // arr is a plain array (int arr[])not vector,  Plain arrays do NOT have .size()
     int largest = arr[0];
     for(int i=1;i<n;i++) {
         if(arr[i] > largest) {
